@@ -1,0 +1,96 @@
+# Configs/runs
+config.json
+config.toml
+last_run.json
+
+# Built executables
+*.exe
+*.exe~
+*.dll
+*.so
+bin/
+compiled/
+release/
+deps/
+krushitel
+krushitel_linux*
+bastionne
+bastionne_*
+*.mmdb
+titlegrab
+kt
+krlin
+
+# test
+pref.txt
+
+# results of scanning
+results/
+snapshots/
+xml/
+exp.txt
+vuln.txt
+alive.txt
+
+# tests
+*_test.go
+
+# krushitel-beta runs
+*.log
+1338port/
+1488port/
+37777port/
+folder/
+dahuasoset1337!/
+dahuaeatsit
+undervolt
+1337port
+1337prefix
+dahua_help_console.txt
+config_dump_1337.json
+__pycache__/
+tools/p2pwn/
+
+# Dumps, scans and test folders
+*.zip
+*.state
+*.progress
+crashscan.json
+crashscan.txt
+ips.txt
+nig.txt
+uzhgorod*.txt
+13371338/
+mukachevo*/
+tailtest/
+testingniggers/
+uzhhorod*/
+
+# nigga
+cfg_dump.json
+dumpcfg_*.json
+
+# scripts
+*.sh
+*.ps1
+*.cmd
+*.py
+dhscp/
+myapp_*
+dvr_dump.json
+.zcodeignore
+
+# results
+401test/
+401test3/
+lapoliciya/
+leetcode/
+prefixes_*/
+prefixes/
+leetcode1337/
+geo_aq/
+test_run/
+prefix_*/
+/exploit*
+nigger*
+tgbot.lock
